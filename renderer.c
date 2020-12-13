@@ -23,7 +23,7 @@
 #include <libk/string.h>
 #include "font.h"
 
-unsigned int* vram32;
+uint32_t *vram32;
 int pwidth, pheight, bufferwidth;
 uint32_t color;
 
